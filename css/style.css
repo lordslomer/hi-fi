@@ -1305,7 +1305,7 @@ form input[type="submit"]:focus {
 .proCon {
   width: 100%;
   display: grid;
-  grid-template-columns: 70% 30%;
+  grid-template-columns: 65% 50%;
   min-height: 200px;
 }
 
@@ -1319,8 +1319,8 @@ form input[type="submit"]:focus {
 }
 
 #vid:hover {
-  -webkit-transform: scale(1.25);
-  transform: scale(1.25);
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
 }
 
 .infoCon {
@@ -1408,6 +1408,15 @@ form input[type="submit"]:focus {
     max-width: 500px;
   }
 }
+.arrows:hover{
+  cursor: pointer;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.w3-light-grey{
+  background-color: #d5d5d5 !important;
+}
+
 /*
 https://kute-themes.com/html/boutique/html/index.html
 https://template.hasthemes.com/noraure/noraure/index.html

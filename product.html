@@ -21,10 +21,10 @@
    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
    <!-- Custom styles for this template -->
    <link href="css/styles2.css" rel="stylesheet" />
-   <link href="css/style.css" rel="stylesheet" />
    <!-- responsive style -->
    <link href="css/responsive.css" rel="stylesheet" />
    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <link href="css/style.css" rel="stylesheet" />
    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
    <meta http-equiv="Pragma" content="no-cache" />
    <meta http-equiv="Expires" content="0" />
@@ -95,50 +95,20 @@
    <section class="py-5 slider_section" style="padding-top: 2%;">
       <div class="container px-4 px-lg-5 my-5">
          <div class="row gx-4 gx-lg-5 align-items-center">
-            <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="images/p13.png" alt="..." /></div>
+            <div class="col-md-6" style="display: flex;">
+               <span class="arrows" style="margin: auto 0; font-weight: bold; font-size: xx-large;"
+                  onclick="document.getElementById('myModal').style.display='block';">
+                  <</span>
+                     <img class="card-img-top mb-5 mb-md-0" src="images/p13.png" style="max-width:85%; margin: auto 0;"
+                        alt="..." />
+                     <span class="arrows" style="margin: auto 0; font-weight: bold; font-size: xx-large;"
+                        onclick="document.getElementById('myModal').style.display='block';">></span>
+            </div>
             <div class="col-md-6 container" style="padding-top: 5%;">
-               <h1 class="display-5 fw-bolder" style=" color: #009051;">Vit T-shirt</h1>
-               <div class="fs-5 mb-5">
-                  <span class="text-decoration-line-through">45 kr</span>
-                  <span>25 kr</span>
+               <h1 class="display-5 fw-bolder" style=" color: #009051;">T-shirt</h1>
+               <div class="fs-5 mb-5"><span style="font-weight: bold;">25,00 kr.</span>
                </div>
-               <div style="padding-top: 25px;">
-                  <div class="proCon">
-                     <div class="proItem">
-                        <div style="padding: 0 0 10% 0;">
-                           <h2 class="fw-bolder" style=" color: #009051;">Skick: Nyskick</h2>
-                           <div class="w3-light-grey w3-round-xlarge">
-                              <div class="w3-container  w3-round-xlarge" style="width:85%; background: #82c094;"><span
-                                    style="color: #82c094;">#</span></div>
-                           </div>
-                        </div>
-                        <ul style="list-style-type: none; padding: 0;">
-                           <li style="text-align: center;">
-                              <p style="font-size: 1.3rem; font-weight: 500;"><span style="font-weight: bold;">92
-                                    x</span> lägre utsläpp</p>
-                           </li>
-                           <li style="display: grid; grid-template-columns: 50% 50%; font-size: 13px;">
-                              <div style="display: flex;">
-                                 <p style="margin: auto 5px;"><span style="font-weight: bold;">30L</span> sparat vatten
-                                 </p>
-                                 <span class="iconify" data-icon="wi:raindrops"
-                                    style="font-size: 40px; color: #1769aa; margin: auto 5px;"></span>
-                              </div>
-                              <div style="display: flex;">
-                                 <p style="margin: auto 5px;"><span style="font-weight: bold;">5kg</span> mindre C02</p>
-                                 <img src="images/p14.png" style="max-width: 35px; margin: auto 5px;" alt="">
-                              </div>
-                           </li>
-                        </ul>
-                     </div>
-                     <div class="proItem" id="vid">
-                        <a href="javascript:void(0)"
-                           onclick="document.getElementById('myModal').style.display='block';"><img src="images/p15.jpg"
-                              alt="" style="max-width: 200px;"></a>
-                     </div>
-                  </div>
-               </div>
-               <div class="d-flex detail-box" style="min-height: auto;">
+               <div class="d-flex detail-box" style="min-height: auto; margin: 0;">
                   <div class="btn-box">
                      <a href="javascript:void(0)" onclick="document.getElementById('checkOut').style.display='block';"
                         class="btn1">
@@ -154,6 +124,61 @@
                      </a>
                   </div>
                </div>
+               <div>
+                  <div class="proCon">
+                     <div class="proItem">
+                        <h1 style="margin: 0; font-size: x-large; font-weight: bold;">Information</h1>
+                        <ul style="list-style-type: none; padding: 1% 0;">
+                            <li style="margin: 4% 0;">
+                              <p style="font-size: 1.3rem; font-weight: 500; margin: 0;"><span style="font-weight: bold;">Märke: </span>Acne Studios</p>
+                            </li>
+                            <li style="margin: 4% 0;">
+                              <p style="font-size: 1.3rem; font-weight: 500; margin: 0;"><span style="font-weight: bold;">Storlek: </span>M</p>
+                            </li>
+                            <li style="margin: 4% 0;">
+                              <p style="font-size: 1.3rem; font-weight: 500; margin: 0;"><span style="font-weight: bold;">Färg: </span>Vit</p>
+                           </li>
+                           <li style="margin: 4% 0;">
+                              <p style="font-size: 1.3rem; font-weight: 500; margin: 0;"><span style="font-weight: bold;">Material: </span>Bomull</p>
+                           </li>
+                        </ul>
+                        <div style="padding: 0 0 10% 0;">
+                           <h2 class="fw-bolder" style=" color: #009051; font-size: x-large;">Skick: Nyskick</h2>
+                           <div class="w3-light-grey w3-round-xlarge">
+                              <div class="w3-container  w3-round-xlarge" style="width:85%; background: #82c094;"><span
+                                    style="color: #82c094;">#</span></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="proItem">
+                        <a href="javascript:void(0)"
+                           onclick="document.getElementById('myModal').style.display='block';"><img id="vid" src="images/p15.jpg"
+                              alt="" style="max-width: 200px;"></a>
+                        <ul style="list-style-type: none; padding: 0; margin: 0;">
+                           <li>
+                              <p style="font-size: 1.3rem; font-weight: 500; margin: 0;"><span style="font-weight: bold;">92
+                                    x</span> lägre utsläpp</p>
+                           </li>
+                           <li style="text-align: center;">
+                              <div style="display: flex; justify-content: space-between;">
+                                 <p style="font-size: 1.3rem; font-weight: 500; margin: 0;"><span style="font-weight: bold;">30L</span> sparat vatten
+                                 </p>
+                                 <span class="iconify" data-icon="wi:raindrops"
+                                    style="font-size: 30px; max-height: 24px; min-width: 35px; color: #1769aa; margin: auto 0;"></span>
+                              </div>
+                           </li>
+                           <li style="text-align: center;">
+                              <div style="display: flex; justify-content: space-between;">
+                                 <p style="font-size: 1.3rem; font-weight: 500; margin: 0;"><span style="font-weight: bold;">5kg</span> mindre C02
+                                 </p>
+                                 <img src="images/p14.png" style="max-width: 35px; margin: auto 0px;" alt="">
+                              </div>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+
             </div>
          </div>
       </div>
